@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+}
+
+#five {
+    width: 20vw;
+    height: 20vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.head1 {
+    justify-content: center;
+    color: darkblue;
+    font-style: oblique;
+    margin: auto;
+}
+
+.head2 {
+    color: darkblue;
+    font-style: normal;
+    opacity: 90%;
+}
+
+p.desc {
+    font-size: 110%;
+    color: lime;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="head1">Welcome to My Fav Five!</h1>
+<img src="../static/five.jpg" alt="Five" id="five">
+<br>
+<br>
+<a href="{{ url_for('fave_five') }}">Click here to see my favorite five!</a>
+
+{% endblock content %}
